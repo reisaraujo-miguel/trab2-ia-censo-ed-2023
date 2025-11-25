@@ -1,0 +1,27 @@
+[project]
+name = "trab2-ia-censo-ed-2023"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "reisaraujo-miguel", email = "reisaraujo.miguel@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "numpy (>=2.3.5,<3.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "kmodes (>=0.12.2,<0.13.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "ipykernel (>=7.1.0,<8.0.0)",
+    "scikit-learn-extra (>=0.3.0,<0.4.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
